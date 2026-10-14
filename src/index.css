@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { @apply bg-ivory font-body text-navy antialiased; overflow-x: hidden; }
+section[id] { scroll-margin-top: 84px; }
+:focus-visible { outline: 3px solid #F2545B; outline-offset: 3px; border-radius: 8px; }
